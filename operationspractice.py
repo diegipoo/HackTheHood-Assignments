@@ -41,3 +41,9 @@ for x in range (1,10):
     else: 
         print("odd")
         
+for num in range(1,10):
+  if num % 2 == 0:
+    print(f "even: {num}")
+else:
+   if num % 2 == 1:
+     print(f "odd: {num}") 
