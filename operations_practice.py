@@ -37,16 +37,12 @@ Below is a list of even and odd numbers. Can you write a block of code that loop
 '''
 numbers = [0,1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for x in range (1,10):
+for x in numbers:
     if x % 2 == 0:
-        print("even")
+        print(f" {x} even")
     else: 
-        print("odd")
-  
-for numb in range(1,16):
-    print(numb)
-    if numb % 3 == 0 and not (numb % 5 ==0):
-        print("multiple of 3")
+        print(f" {x} odd")
+
 
         
         
