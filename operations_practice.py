@@ -1,6 +1,8 @@
 '''
 Below are three set's of numbers. Create three variables that are equal to each set: one number minus the other
 '''
+
+
 set1, set2, set3, = [25, 10], [50, 27], [61, 38]
 var1 = 25 - 10
 var2 = 50 - 27
@@ -40,13 +42,13 @@ for x in range (1,10):
         print("even")
     else: 
         print("odd")
+  
+for numb in range(1,16):
+    print(numb)
+    if numb % 3 == 0 and not (numb % 5 ==0):
+        print("multiple of 3")
+
         
-for x in range(1,31):
-    if x % 3 == 0 and not(x % 5 == 0):
-       print('ki')
-    elif x % 5 == 0 and not(x % 3 == 0):
-        print('wi')
-    elif x % 3 == 0 and x % 5 == 0:
-        print('kiwi')
-    else:
-        print(x)
+        
+   
+
