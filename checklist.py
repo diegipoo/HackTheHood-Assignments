@@ -13,7 +13,7 @@ def read(index):
     # Read code here
     print(checklist[index])
 
-    return checklist[index]
+    return(checklist[index])
 # UPDATE
 def update(index, item):
 
