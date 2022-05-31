@@ -1,12 +1,12 @@
 # creating empty list
 checklist = [] 
+
 # CREATE
 def create(item):
 
     # Create item code here
     checklist.append(item)
 
-    return "Added {} to checklist".format(item)
 # READ
 def read(index):
 
@@ -22,7 +22,6 @@ def update(index, item):
     # Update code here
     checklist[index] = item
 
-    return "Changed {} to {}".format(old, item)
 
 # DESTROY
 def destroy(index):
@@ -31,8 +30,6 @@ def destroy(index):
 
     # Destroy code here
     checklist.pop(index)
-
-    return "Removed {} from checklist".format(removed)
 
 # SEE ALL ITEMS
 def all_items():
@@ -44,14 +41,8 @@ def all_items():
         items.append(element)
     
     return items
-# ADD CHECK MARK TO ITEM
-def checked(index):
 
-    unchecked = checklist[index]
 
-    checklist[index] = "check " + unchecked
-
-    return checklist[index]
 # USER INPUT FUNCTION
 def user_input(prompt):
 
@@ -102,14 +93,6 @@ def user_choice():
             all_items()
 
             continue
-        elif choice == "S" or choice == "s":
-
-            checked_index = user_input("What item do you wantto check of? Give the number of the position. ")
-
-            checked(int(checked_index))
-
-            continue
-
         else:
 
             end = user_input("Quit? Enter Y or N. ")

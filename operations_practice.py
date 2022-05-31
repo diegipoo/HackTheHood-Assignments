@@ -28,7 +28,7 @@ print(set7, set8, set9)
 Below is an empty variable called my_name. Assign your name to the variable and then add the string "hello " to the
 front of it. Assign the result to the variable greeting 
 '''
-my_name="Diego"
+my_name="Shoyo"
 greeting= "Hello " + my_name
 print(greeting)
 
